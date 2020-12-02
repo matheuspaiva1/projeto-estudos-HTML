@@ -1,0 +1,25 @@
+/* RODAPÉ */
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background: #D1E5BF;
+    position: absolute;
+    width: 100%;
+    height: 188px;
+    left: 0px;
+    top: 836px;
+}
+
+.footer p {
+    text-align: center;
+    margin-left: 650px;
+    color: #2D2D2D
+    ;
+    font-weight: bold;
+}
+
+.images  {
+    margin-left: 650px;
+}
+

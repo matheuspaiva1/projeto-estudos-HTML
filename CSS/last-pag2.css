@@ -1,0 +1,76 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Sahitya';
+    position: 100%;
+    background-color: #EEEEEE;
+}
+/* CABEÇALHO */
+.header {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 80px;
+    margin-left: 20px;
+
+}
+
+.voltar {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.voltar img {
+    margin-right: 15px;
+}
+
+.logo {
+    margin-left: 850px;
+    display: flex;
+    align-items: center;
+
+    text-shadow: 1px 1px #bdbbbb;
+}
+
+
+.header p {
+    font-weight: bold;
+    font-size: 43.3171px;
+    line-height: 67px;
+
+    color: #186974;
+}
+
+.header a {
+    color: white;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    text-decoration: none;
+}
+
+/* MENSAGEM */
+.mensagem {
+    display: flex;
+    align-items: center;
+
+    margin-left: 360px;
+    text-align: center;
+
+}
+
+.mensagem h1 {
+    font-size: 50px;
+
+    color: #77a949;
+}
+
+.email p{
+    color: #8d8d8d;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+}

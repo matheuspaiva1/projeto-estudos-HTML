@@ -1,0 +1,33 @@
+/* CABEÇALHO */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #D1E5BF;
+    height: 122px;
+    
+}
+
+.header h1 {
+    font-family: 'Sahitya';
+    color: white;
+    font-size: 64px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2D2D2D;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.header  p {
+    margin-left: 130px;
+    transition: color 0.2s;
+}
+
+.header p:hover {
+    color: white;
+}
