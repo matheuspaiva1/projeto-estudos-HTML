@@ -8,6 +8,11 @@ header {
     align-items: center;
     position: relative;
 }
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .header h1 {
     font-family: 'Sahitya';
@@ -26,10 +31,43 @@ header {
 }
 
 .header  p {
-    margin-left: 14.4rem;
+    margin-left: 11.2em;
     transition: color 0.2s;
 }
 
 .header p:hover {
     color: white;
+}
+
+@media(max-width: 320px){
+    header {
+        height: 14rem;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .header h1 {
+        font-size: 2.2em;
+        line-height: 1rem;
+    }
+
+    .header a {
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+    .header  p {
+        text-align: center;
+        margin-left: 0.4rem;
+        transition: color 0.2s;
+    }
+
+    
+
+    
+    
+    
 }

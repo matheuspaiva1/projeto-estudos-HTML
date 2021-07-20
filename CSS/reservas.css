@@ -1,10 +1,8 @@
 /* CAIXA */
 .hoteis {
     display: flex;
-    width: 1371px;
-    height: 422px;
-    left: 32px;
-    top: 170px;
+    width: 95vw;
+    height: 19rem;
 
     background: #FFFFFF;
     border: 1px solid #d3d3d3;
@@ -18,44 +16,40 @@
 
 /* DESCRIÇÃO */
 .description {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    display: fixed;
 }
 .description h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 38px;
-    line-height: 49px;
+    font-size: 2.2rem;
 
     color: #186974;
 
-    margin-top: 15px;
 }
 
 .description h2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 41.6313px;
-    line-height: 49px;
+    font-size: 1.8rem;
 
     color: #DAD8D8;
+    
 
 
 }
 
 .description p {
     font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
-    font-size: 41.6313px;
-    line-height: 49px;
-
+    font-size: 1.3rem;
 
     color: #186974;
-
-    margin-bottom: 0px;
+    width: 6rem;
+    margin-right: 55rem;
 }
 
 /* BOTÃO */
@@ -63,28 +57,88 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 41.6313px;
-    line-height: 49px;
+    font-size: 2.2rem;
 
 
     color: #FFFFFF;
 
-    width: 199px;
-    height: 86px;
-    left: 1176px;
-    top: 476px;
+    width: 11rem;
+    height: 4.2rem;
 
     background: #19C735;
     border-radius: 12px;
     border: none;
 
-    margin-left: 730px;
-    margin-top: 0px;
-
     cursor: pointer;
     transition: background 0.2s;
+
 }
 
 .description button:hover {
     background-color: #056815;
+}
+
+.reservar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 320px) {
+    .hoteis {
+        display: flex;
+        width: 18.3rem;
+        height: 10rem; 
+        margin-top: 28px;
+    }
+
+    .description {
+        margin-left: 0.8rem;
+        margin-top: 0.3rem;
+        display: fixed;
+    }
+    
+
+    .description h1 {
+        font-size: 0.9em;
+        width: 10em;
+        color: #186974;
+    
+    }
+    
+    .description h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.6em;
+    
+        color: #aaaaaa;
+    
+    
+    }
+    
+    .description p {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 0.6em;
+        color: #186974;
+        width: 5rem;
+        margin-right: 0rem;
+        margin-top: 0.1rem;
+    }
+
+    .description button {
+        font-size: 0.5rem;
+        text-align: center;
+        width: 2.6rem;
+        height: 1rem;    
+    }
+
+    .reservar{
+        display: flex;
+    }
+    
+    
+
+    
+    
 }
