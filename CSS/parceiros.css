@@ -1,10 +1,26 @@
 /* PAGINA DE PARCEIROS */
 .parceiros {
-    margin-top: 210px;
-    margin-left: 100px;
+    margin-top: 5.3rem;
+    margin-left: 40rem;
 }
 
 .parceiros a {
     margin-left: 20px;
     margin-right: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 320px) {
+    .parceiros {
+        margin-top: 0rem;
+        margin-left: 0rem;    
+    }
+
+    .parceiros a {
+        margin-left: 4.2rem;
+    }
+    
 }

@@ -2,24 +2,44 @@
 footer {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 5rem;
     background: #D1E5BF;
     position: absolute;
     width: 100%;
     height: 188px;
-    left: 0px;
-    top: 836px;
+    display: fixed;
 }
 
 .footer p {
     text-align: center;
-    margin-left: 650px;
-    color: #2D2D2D
-    ;
+    margin-left: 40rem;
+    color: #2D2D2D;
     font-weight: bold;
 }
 
 .images  {
-    margin-left: 650px;
+    margin-left: 40rem;
+}
+
+@media (max-width: 320px) {
+    footer {
+        margin-top: 1rem;
+        width: 100%;
+        height: 15rem;
+    }
+
+    .footer p {
+        text-align: center;
+        width: 20rem;
+        margin-left: 0px;
+        color: #2D2D2D;
+        font-weight: bold;
+    }
+    .images  {
+        margin-left: 2.5rem;
+    }
+    
+
+    
 }
 
